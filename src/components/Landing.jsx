@@ -1,11 +1,14 @@
 import React from "react";
+import Main from "./Main";
 
 const Landing = () => {
   return (
     <>
       <div className="display">
         <div className="middle-line"></div>
-        <div className="heading">DevHire</div>
+        <div className="heading">
+          Dev<span>Hire</span>
+        </div>
         <div className="home">Home</div>
         <div className="search"></div>
         <div className="current"></div>
@@ -13,6 +16,7 @@ const Landing = () => {
       <div className="favorites display">
         <span className="like"></span>Favorites
       </div>
+      <Main />
     </>
   );
 };

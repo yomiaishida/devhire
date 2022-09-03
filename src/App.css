@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #343a40;
+  background-color: #E5E5E5;
 }
 
 /* Utility Classes */
@@ -36,6 +36,18 @@ bottom: 93.8%; */
 
 color: #14142B;
 
+}
+
+.heading span {
+  color: #1D9BF0;
+}
+
+.main-heading {
+  position: absolute;
+  width: 345px;
+  height: 34px;
+  top: 114px;
+  left: 345px;
 }
 
 .middle-line {
@@ -110,4 +122,34 @@ border-radius: 5px;
   top: 190px;
   left: 105px;
   color: rgba(0, 0, 0, 0.43);
+}
+
+.card {
+  width: 238px;
+  height: 224px;
+  margin: 5px;
+  background-color: #E5E5E5;
+}
+
+.container {
+  position: absolute;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  top: 255px;
+  left: 350px;
+  background-color: #14142B;
+}
+
+.card-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 10px;
+  /* left: 40px; */
 }
