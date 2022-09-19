@@ -6,6 +6,11 @@ const Main = () => {
       <h1 className="main-heading">Hire Top Developers</h1>;
       <div className="container">
         <div className="card-container">
+          <div className="card">
+            <div className="card-main"></div>
+          </div>
+          <div className="card"></div>
+          <div className="card"></div>
           <div className="card"></div>
           <div className="card"></div>
           <div className="card"></div>
