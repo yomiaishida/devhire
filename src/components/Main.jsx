@@ -7,7 +7,9 @@ const Main = () => {
       <div className="container">
         <div className="card-container">
           <div className="card">
-            <div className="card-main"></div>
+            <div className="card-main">
+              <div className="card-pic"></div>
+            </div>
           </div>
           <div className="card"></div>
           <div className="card"></div>
