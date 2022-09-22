@@ -11,6 +11,7 @@ const Main = () => {
               <div className="card-pic"></div>
               <div className="card-name">
                 <p className="card-dev-name">Dominos</p>
+                <p className="charge">$30000</p>
               </div>
             </div>
           </div>
