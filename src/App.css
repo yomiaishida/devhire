@@ -204,3 +204,23 @@ top: calc(75% - 15px/2 + 70.5px);
   
   color: rgba(0, 0, 0, 0.8);
 }
+
+.hire {
+  position: absolute;
+width: 25px;
+height: 27px;
+left: calc(50% - 25px/2 + 93.5px);
+top: calc(75% - 27px/2 + 78.5px);
+
+font-family: 'Public Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 26px;
+/* identical to box height, or 220% */
+
+display: flex;
+align-items: center;
+
+color: #1D9BF0;
+}

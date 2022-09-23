@@ -13,6 +13,7 @@ const Main = () => {
                 <p className="card-dev-name">Dominos</p>
                 <p className="charge">$30000</p>
               </div>
+              <div className="hire">Hire</div>
             </div>
           </div>
           <div className="card"></div>
