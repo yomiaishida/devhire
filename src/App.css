@@ -224,3 +224,25 @@ align-items: center;
 
 color: #1D9BF0;
 }
+
+
+.like-button {
+  position: absolute;
+width: 35px;
+height: 35px;
+left: 190px;
+top: 14px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.heart {
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 8.37%;
+bottom: 8.37%;
+
+background: #FF4135;
+}
