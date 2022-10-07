@@ -1,4 +1,5 @@
 import React from "react";
+import { Card } from "./Card";
 
 const Main = () => {
   return (
@@ -19,14 +20,7 @@ const Main = () => {
               <div className="hire">Hire</div>
             </div>
           </div>
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
-          <div className="card"></div>
+          <Card />
         </div>
       </div>
     </>
