@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Cardinner = ({ prof }) => {
+export const CardInner = ({ prof }) => {
   return (
     <div className="card-main">
       <div className="card-pic"></div>
