@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import ProfileContext from "../context/ProfileContext";
-import { CardMini } from "./Cardinner";
+import { CardInner } from "./CardInner";
 
 export const Card = () => {
   const { profile, isLoading } = useContext(ProfileContext);
@@ -10,9 +10,9 @@ export const Card = () => {
     <h1>Loading...</h1>
   ) : (
     <div>
-      {console.log(profile)}
-      {profile.map((prof) => (
-        <CardMini key={prof.data.service_search_results.hits.id} prof={prof} />
+      {/* {console.log(profArr)} */}
+      {Object.keys(profile).map((prof) => (
+        <CardInner key={prof.data.service_search_results.hits.id} prof={prof} />
       ))}
     </div>
   );

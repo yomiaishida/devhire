@@ -10,7 +10,6 @@ export const ProfileProvider = ({ children }) => {
   useEffect(() => {
     fetchProfile();
   }, []);
-  console.log(profile);
 
   // Fetch Profile
   const fetchProfile = async () => {
@@ -18,7 +17,6 @@ export const ProfileProvider = ({ children }) => {
       "https://api.terawork.com/service-categories/sellers-services/computer-software-development"
     );
 
-    console.log(data);
     setProfile(data);
     setIsLoading(false);
   };
@@ -29,3 +27,4 @@ export const ProfileProvider = ({ children }) => {
     </ProfileContext.Provider>
   );
 };
+export default ProfileContext;
