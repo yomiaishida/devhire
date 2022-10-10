@@ -11,8 +11,14 @@ export const Card = () => {
   ) : (
     <div>
       {/* {console.log(profArr)} */}
-      {Object.keys(profile).map((prof) => (
-        <CardInner key={prof.data.service_search_results.hits.id} prof={prof} />
+      {Object.keys(profile).map((data, i) => (
+        <>
+          {console.log(profile.data.service_search_results.hits[0]._id, i)}
+          <CardInner
+            key={profile.data.service_search_results.hits[0]._id}
+            data={profile.data}
+          />
+        </>
       ))}
     </div>
   );
